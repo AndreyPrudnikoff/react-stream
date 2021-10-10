@@ -37,7 +37,7 @@ function Videos(props) {
                                     <video controls src={video.link}/>
                                 </div>
                                 <div><b>Title:</b> {video.name}</div>
-                                <div><b>Duration:</b> {video.duration}</div>
+                                <div><b>Duration:</b> {video.duration}s</div>
                                 <div><b>Quality:</b> {video.quality}</div>
                                 <div><b>Created:</b> {(new Date(video.created)).toLocaleString()}</div>
                                 <div><b>Owner:</b> {video.owner}</div>
