@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import RecordRTC from 'recordrtc'
 import {useDispatch} from "react-redux";
 

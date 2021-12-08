@@ -1,6 +1,6 @@
 export default function http () {
     const token = sessionStorage.getItem('token')
-    const baseUrl = 'http://localhost:5000/api'
+    const baseUrl = 'http://192.168.1.6:5000/api'
     return {
         get(url) {
             return fetch(baseUrl + url, {

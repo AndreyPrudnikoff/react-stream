@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Links didn't change 1`] = `
+<div
+  className="error"
+  onClick={[Function]}
+>
+  <h2 />
+</div>
+`;
